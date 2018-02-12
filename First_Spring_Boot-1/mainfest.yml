@@ -1,7 +1,0 @@
----
-applications:
-- name: jenkinsrepo
-  memory: 1024M
-  buildpack: java_buildpack
-  routes:
-  - route: jenkinsrepo.cfapps.io
