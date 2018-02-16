@@ -2,6 +2,6 @@
 applications:
 - name: jenkinsrepo
   memory: 1024M
-  buildpack: java_buildpack
+  buildpack: liberty-for-java
   routes:
   - route: jenkinsrepo.cfapps.io
